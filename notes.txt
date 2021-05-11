@@ -1,0 +1,17 @@
+--- Scenery:
+- Categories: id, category
+- Products: id, product, price
+- Images: id, description, url
+
+- Category has many Products
+- Product has and belong many Categories
+- Product has many Images
+
+Category <> M:N <> Product
+Product <> 1:N <> Image
+
+--- Operações:
+- CRUD: para todos
+- buscar todos os produtos por 1 categoria
+- buscar 1 produto > trazer todas as images (ou pelo menos a primeira) relacionadas 
+- pagination
