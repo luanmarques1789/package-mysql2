@@ -6,7 +6,7 @@ const run = async () => {
       host: 'localhost',
       user: 'root',
       password: 'san01xlz',
-      database: 'cat-products',
+      database: 'cat_products',
       port: 3307,
     });
     try {
